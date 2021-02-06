@@ -5,7 +5,7 @@ import java.util.Random;
 
 import javax.swing.JPanel;
 
-public class GamePanel extends JPanel implements ActionListener{
+public class GameWindow extends JPanel implements ActionListener{
 
     /**
      *
@@ -27,7 +27,7 @@ public class GamePanel extends JPanel implements ActionListener{
     Timer timer;
     Random random;
 
-    GamePanel(){
+    GameWindow(){
         random = new Random();
         this.setPreferredSize(new Dimension(SCREEN_HEIGHT, SCREEN_HEIGHT));
         this.setBackground(Color.black); //Change screencolor (use upper case C)
